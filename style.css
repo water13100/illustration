@@ -145,13 +145,14 @@ section#section_map .col-sm-5 .card {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 10px;
-  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/18198713_1472940286089464_8714841972730809858_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeF1jwOnVZ9-DqNK846nmd3U9ZRGWRGGIYoSdZchNR_I1_VptH55Il9LeconEszhAg2C7SzyPeZFY5TyEOlLNo_AQtzDSCifNaps64ya3NkJBg&oh=58eaf70eafa2e487eba72bd462b29285&oe=5B34A114);
+  background-image: url();
+
 }
 
 section#section_map .col-sm-5 .card:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/29216418_1710135949041920_5879745814618038224_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeGrkZyPMfKl89c95PrFT2mQ7KHY29ZQIQChRhtzEkF1tTUTxUOKqPkD7viJCIHbkqr8bM2CbtCxCfBYLAUnyK-1awQXOPA8JUADRMHZKaTISA&oh=e55fdbc1ac2a8f200fb9972c492ba16e&oe=5B3BA1EC);
+  background-image: url();
 }
 
 section#section_map .col-sm-7 i {
