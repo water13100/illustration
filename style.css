@@ -1,0 +1,174 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+  position: relative;
+}
+
+* h2 {
+  font-size: 20px;
+}
+
+header {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: rgba(234, 234, 250, 0);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #eaeafa;
+  letter-spacing: 2px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff8c1a;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.jumbotron {
+  margin: 0;
+  background-image: url(http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.jumbotron .container {
+  position: relative;
+  color: white;
+  padding: 200px 0px;
+}
+
+.jumbotron .container hr {
+  width: 400px;
+  border: solid 1px;
+  opacity: 0.5;
+  position: absolute;
+  top: 240px;
+}
+
+.jumbotron .container h4 {
+  padding-top: 7px;
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+section {
+  padding: 50px;
+  padding-top: 100px;
+}
+
+#section_ask {
+  height: 100vh;
+  background-color: #eaeafa;
+}
+
+#section_ask .col-sm-7 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  height: 500px;
+  overflow: hidden;
+}
+
+#section_ask .col-sm-7 .w3-content.w3-section.mySlides {
+  width: 100%;
+  position: absolute;
+}
+
+#section_ask .col-sm-7 img {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  position: absolute;
+}
+
+#section_ask .col-sm-5 {
+  text-align: center;
+}
+
+#section_ask .col-sm-5 h2 {
+  margin-top: 200px;
+  font-size: 20px;
+}
+
+#section_ask .col-sm-5 hr.black {
+  border-color: rgba(34, 34, 34, 0.1);
+}
+
+section#section_stroy {
+  height: 100vh;
+  text-align: center;
+}
+
+section#section_stroy img {
+  margin-top: 20px;
+  width: 105%;
+}
+
+section#section_stroy .img_wrap {
+  height: 300px;
+  overflow: hidden;
+}
+
+section#section_story2 {
+  text-align: center;
+}
+
+section#section_story2 .col-sm-7 {
+  height: 400px;
+  background-image: url(http://payload534.cargocollective.com/1/23/758520/12982050/32_1000.jpg);
+  background-position: center;
+}
+
+section#section_map {
+  background-color: #222;
+  color: #fff;
+  padding: 50px;
+  text-align: center;
+}
+
+section#section_map .col-sm-5 {
+  height: 400px;
+}
+
+section#section_map .col-sm-5 .card {
+  cursor: pointer;
+  position: relative;
+  height: 400px;
+  background-size: cover;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 10px;
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/18198713_1472940286089464_8714841972730809858_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeF1jwOnVZ9-DqNK846nmd3U9ZRGWRGGIYoSdZchNR_I1_VptH55Il9LeconEszhAg2C7SzyPeZFY5TyEOlLNo_AQtzDSCifNaps64ya3NkJBg&oh=58eaf70eafa2e487eba72bd462b29285&oe=5B34A114);
+}
+
+section#section_map .col-sm-5 .card:hover {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/29216418_1710135949041920_5879745814618038224_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeGrkZyPMfKl89c95PrFT2mQ7KHY29ZQIQChRhtzEkF1tTUTxUOKqPkD7viJCIHbkqr8bM2CbtCxCfBYLAUnyK-1awQXOPA8JUADRMHZKaTISA&oh=e55fdbc1ac2a8f200fb9972c492ba16e&oe=5B3BA1EC);
+}
+
+section#section_map .col-sm-7 i {
+  font-size: 40px;
+}
+
+footer.jumbotron .container h2 {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron .container input {
+  width: 210px;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer.jumbotron .container .btn {
+  margin-left: 20px;
+}
+/*# sourceMappingURL=style.css.map */
