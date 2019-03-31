@@ -145,14 +145,14 @@ section#section_map .col-sm-5 .card {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 10px;
-  background-image: url();
+  background-image: url(https://i.imgur.com/rnAg5sV.jpg);
 
 }
 
 section#section_map .col-sm-5 .card:hover {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
-  background-image: url();
+  background-image: url(https://i.imgur.com/7qJU6SV.jpg);
 }
 
 section#section_map .col-sm-7 i {
