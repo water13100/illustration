@@ -8,9 +8,7 @@
   font-size: 30px;
 }
 
-header {
-  height: 100vh;
-}
+
 
 body {
   height: 100%;
@@ -32,21 +30,37 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   -webkit-transition: 1s;
   transition: 1s;
 }
-
-.jumbotron {
+header {
+  height: 100vh;
+  height: 100%;
   margin: 0;
-  background-image: url('http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg');
-  background-size: cover;
-  background-attachment: fixed;
 }
-
-.jumbotron .container {
+/* header.bg {
+  position: fixed;
+  top: 0;
+	left: 0;
+  margin: 0;
+  background-image: url("");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+} */
+header .bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg");
+	background-size: cover;	
+}
+.bg .container {
   position: relative;
   color: white;
   padding: 200px 0px;
 }
 
-.jumbotron .container hr {
+.bg .container hr {
   width: 400px;
   border: solid 1px;
   opacity: 0.5;
@@ -54,7 +68,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   top: 240px;
 }
 
-.jumbotron .container h4 {
+.bg .container h4 {
   padding-top: 7px;
   opacity: 0.8;
   letter-spacing: 2px;
@@ -191,9 +205,7 @@ footer.jumbotron .container .btn {
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width:768px){ 
-  header {
-    height: 500px;
-  }
+ 
   #section_stroy {
   margin-top: 300px;
   margin-bottom: 300px;
