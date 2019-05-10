@@ -1,9 +1,14 @@
 var s = skrollr.init();
 $(window).scroll(function(evt){
-  if ($(window).scrollTop()>0)
+   if(screen.width > 768){
+      $(window).scrollTop();  
+   } 
+   if ($(window).scrollTop()>0)
    $(".navbar").removeClass("navbar-top");
   else
       $(".navbar").addClass("navbar-top");
+        
+  
 });
 
 
@@ -26,5 +31,11 @@ function carousel() {
 }
 // ....
 $(document).ready(function() {
-		$(".fancybox").fancybox();
+		$(".fancybox").fancybox(
+      { 
+      'opacity': true,
+            'overlayShow': false,
+            'transitionIn': 'elastic',
+          'transitionOut' : 'none' 
+       });
 	});

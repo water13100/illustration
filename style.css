@@ -173,6 +173,7 @@ footer.jumbotron .container .btn {
  position: relative; 
  left: 50%;
  transform: translateX(-50%);
+ width: ;
 }
 /* footer.jumbotron .container i{
   position: relative; 
@@ -184,3 +185,18 @@ footer.jumbotron .container .btn {
   
  } */
 /*# sourceMappingURL=style.css.map */
+@media (max-width: 768px) {
+
+
+
+}
+@media (max-width:768px){ 
+    #section_stroy {
+  height: 2000px;
+ 
+}
+#section_story2 .col-sm-7  {
+    height: 1000px;
+
+}
+}
