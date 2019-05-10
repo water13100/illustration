@@ -102,7 +102,7 @@ section {
 }
 
 section#section_stroy {
-  height: 100vh;
+  height: 700px;
   text-align: center;
 }
 
@@ -117,6 +117,7 @@ section#section_stroy .img_wrap {
 }
 
 section#section_story2 {
+  height: 700px;
   text-align: center;
 }
 
@@ -185,18 +186,20 @@ footer.jumbotron .container .btn {
   
  } */
 /*# sourceMappingURL=style.css.map */
-@media (max-width: 768px) {
 
-
-
-}
 @media (max-width:768px){ 
-    #section_stroy {
-  height: 2000px;
+  #section_stroy {
+  margin-top: 300px;
+  margin-bottom: 300px;
  
 }
-#section_story2 .col-sm-7  {
-    height: 1000px;
+#section_story2 {
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+#section_story2 .col-sm-5{
+  padding-top: 150px;
+  padding-bottom: 50px;
 
 }
 }

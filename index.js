@@ -1,15 +1,14 @@
-var s = skrollr.init();
+
+   var s = skrollr.init(); 
 $(window).scroll(function(evt){
-   if(screen.width > 768){
-      $(window).scrollTop();  
-   } 
+   
    if ($(window).scrollTop()>0)
    $(".navbar").removeClass("navbar-top");
   else
-      $(".navbar").addClass("navbar-top");
-        
-  
+      $(".navbar").addClass("navbar-top");        
 });
+
+
 
 
 // ............
