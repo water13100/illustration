@@ -35,18 +35,26 @@ header {
   height: 100%;
   margin: 0;
 }
-header.bg {
+/* header.bg {
+  position: fixed;
   top: 0;
 	left: 0;
   margin: 0;
-  background-image: url(https://i.imgur.com/yfRa4p7.jpg);
+  background-image: url("");
   background-size: cover;
-  background-attachment: fixed;
   height: 100%;
   width: 100%;
+} */
+header .bg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-image: url("http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg");
+	background-size: cover;	
 }
-
-..bg .container {
+.bg .container {
   position: relative;
   color: white;
   padding: 200px 0px;
