@@ -34,6 +34,8 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
 }
 
 .jumbotron {
+  top: 0;
+	left: 0;
   margin: 0;
   background-image: url(http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg);
   background-size: cover;
