@@ -1,5 +1,4 @@
 
-   var s = skrollr.init(); 
 $(window).scroll(function(evt){
    
    if ($(window).scrollTop()>0)
@@ -30,6 +29,7 @@ function carousel() {
 }
 // ....
 $(document).ready(function() {
+         // var s = skrollr.init(); 
 		$(".fancybox").fancybox(
       { 
       'opacity': true,
@@ -37,4 +37,7 @@ $(document).ready(function() {
             'transitionIn': 'elastic',
           'transitionOut' : 'none' 
        });
+       if(screen.width > 768){
+         new skrollr().init();
+      }
 	});

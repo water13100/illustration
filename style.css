@@ -5,7 +5,7 @@
 }
 
 * h2 {
-  font-size: 20px;
+  font-size: 30px;
 }
 
 header {
@@ -66,10 +66,13 @@ section {
 }
 
 #section_ask {
-  height: 100vh;
+  /* padding-top: 100px; */
+padding-bottom: 100px;
   background-color: #eaeafa;
 }
-
+#section_ask .col-sm-5{
+  
+}
 #section_ask .col-sm-7 {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
@@ -188,6 +191,9 @@ footer.jumbotron .container .btn {
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width:768px){ 
+  header {
+    height: 500px;
+  }
   #section_stroy {
   margin-top: 300px;
   margin-bottom: 300px;
