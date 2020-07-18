@@ -1,13 +1,10 @@
-
+var s = skrollr.init();
 $(window).scroll(function(evt){
-   
-   if ($(window).scrollTop()>0)
+  if ($(window).scrollTop()>0)
    $(".navbar").removeClass("navbar-top");
   else
-      $(".navbar").addClass("navbar-top");        
+      $(".navbar").addClass("navbar-top");
 });
-
-
 
 
 // ............
@@ -29,22 +26,7 @@ function carousel() {
 }
 // ....
 $(document).ready(function() {
-<<<<<<< Updated upstream:index.js
-         // var s = skrollr.init(); 
-		$(".fancybox").fancybox(
-      { 
-      'opacity': true,
-            'overlayShow': false,
-            'transitionIn': 'elastic',
-          'transitionOut' : 'none' 
-       });
-       if(screen.width > 768){
-         new skrollr().init();
-      }
-	});
-=======
 		$(".fancybox").fancybox();
     });
     
 // ............
->>>>>>> Stashed changes:script.js

@@ -1,25 +1,5 @@
 @charset "UTF-8";
 * {
-<<<<<<< Updated upstream
-  font-family: "微軟正黑體";
-  position: relative;
-}
-
-* h2 {
-  font-size: 30px;
-}
-header {
-  height: 100vh;
-  width: 100%;
-}
-body {
-  height: 100%;
-  width: 100%;
-}
-nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
-  background-color: rgba(234, 234, 250, 0);
-  -webkit-transition: 1s;
-=======
   font-family: 'Arapey', cursive;
   position: relative;
 }
@@ -50,38 +30,18 @@ a:hover{
 
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
   background-color: rgba(234, 234, 250, 0);
->>>>>>> Stashed changes
   transition: 1s;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
   color: #eaeafa;
   letter-spacing: 2px;
 }
-<<<<<<< Updated upstream
-
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   color: #ff8c1a;
-  -webkit-transition: 1s;
-=======
-nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
-  color: #ff8c1a;
->>>>>>> Stashed changes
   transition: 1s;
 }
 
 .jumbotron {
-<<<<<<< Updated upstream
-  margin: 0;
-  background-image: url('http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg');
-  background-size: cover;
-  background-position: center;
-
-  /* background-attachment: fixed; */
-  
-}
-
-header.jumbotron .container {
-=======
   
   margin: 0;
   background-image: url(http://payload534.cargocollective.com/1/23/758520/12982050/tumblr_ohb32i0sLe1vlj1deo1_1280_1280.jpg);
@@ -90,31 +50,17 @@ header.jumbotron .container {
 
 }
 .jumbotron .container {
->>>>>>> Stashed changes
   position: relative;
   color: white;
   padding: 200px 0px;
 }
-<<<<<<< Updated upstream
-
-header.jumbotron .container hr {
-=======
 .jumbotron .container hr {
->>>>>>> Stashed changes
   width: 400px;
   border: solid 1px;
   opacity: 0.5;
   position: absolute;
   top: 240px;
 }
-<<<<<<< Updated upstream
-
-.jumbotron .container h4 {
-  padding-top: 7px;
-  opacity: 0.8;
-  letter-spacing: 2px;
-}
-=======
 .jumbotron .container h4 {
   padding-top: 7px;
   opacity: 0.8;
@@ -123,23 +69,10 @@ header.jumbotron .container hr {
   font-family: 'Parisienne', cursive;
 }
 
->>>>>>> Stashed changes
 section {
   padding: 50px;
   padding-top: 100px;
 }
-<<<<<<< Updated upstream
-
-#section_ask {
-padding-bottom: 100px;
-background-color: #eaeafa;
-}
-#section_ask .col-sm-5{
-  
-}
-#section_ask .col-sm-7 {
-  -webkit-transition: all 0.5s;
-=======
 #section_words{
   text-align: center;
   /* background-color:#eaeafa; */
@@ -172,32 +105,14 @@ background-color: #eaeafa;
   background-color: #eaeafa;
 }
 #section_ask .col-sm-7 {
->>>>>>> Stashed changes
   transition: all 0.5s;
   height: 500px;
   overflow: hidden;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 #section_ask .col-sm-7 .w3-content.w3-section.mySlides {
   width: 100%;
   position: absolute;
 }
-<<<<<<< Updated upstream
-
-#section_ask .col-sm-7 img {
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  position: absolute;
-}
-
-#section_ask .col-sm-5 {
-  text-align: center;
-}
-
-=======
 #section_ask .col-sm-7 img {
   transition: 0.5s;
   position: absolute;
@@ -206,57 +121,32 @@ background-color: #eaeafa;
   text-align: center;
 
 }
->>>>>>> Stashed changes
 #section_ask .col-sm-5 h2 {
   margin-top: 200px;
   font-size: 20px;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 #section_ask .col-sm-5 hr.black {
   border-color: rgba(34, 34, 34, 0.1);
 }
 
-<<<<<<< Updated upstream
-section#section_stroy {
-  height: 700px;
-  text-align: center;
-}
-
-=======
 
 section#section_stroy {
   height: 100vh ;
   text-align: center;
 }
->>>>>>> Stashed changes
 section#section_stroy img {
   margin-top: 20px;
   width: 105%;
 }
-<<<<<<< Updated upstream
-
-section#section_stroy .img_wrap {
-=======
 section#section_stroy .img_wrap {
   
->>>>>>> Stashed changes
   height: 300px;
   overflow: hidden;
 }
 
 section#section_story2 {
-<<<<<<< Updated upstream
-  height: 700px;
   text-align: center;
 }
-
-=======
-  text-align: center;
-}
->>>>>>> Stashed changes
 section#section_story2 .col-sm-7 {
   height: 400px;
   background-image: url(http://payload534.cargocollective.com/1/23/758520/12982050/32_1000.jpg);
@@ -269,45 +159,14 @@ section#section_map {
   padding: 50px;
   text-align: center;
 }
-<<<<<<< Updated upstream
-
 section#section_map .col-sm-5 {
   height: 400px;
 }
-
-=======
-section#section_map .col-sm-5 {
-  height: 400px;
-}
->>>>>>> Stashed changes
 section#section_map .col-sm-5 .card {
   cursor: pointer;
   position: relative;
   height: 400px;
   background-size: cover;
-<<<<<<< Updated upstream
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 10px;
-  background-image: url("imges/myphoto_1.jpg");
-
-}
-
-section#section_map .col-sm-5 .card:hover {
-  -webkit-transform: rotateY(180deg);
-          transform: rotateY(180deg);
-  background-image: url("imges/myphoto_2.jpg");
-}
-
-section#section_map .col-sm-7 i {
-  font-size: 40px;
-}
-footer.jumbotron {
-  height: 400px;
-  position: relative;
-  color: white;
-}
-=======
   transition: 0.5s;
   border-radius: 10px;
   background-image: url(https://scontent.frmq1-1.fna.fbcdn.net/v/t1.0-9/79112252_2703125429742962_6077998594994995200_n.jpg?_nc_cat=108&_nc_ohc=HIHAfvO365wAX-PEm7Z&_nc_ht=scontent.frmq1-1.fna&oh=d40a61b82ab747d5e456e4517ebc6c50&oe=5E95518C);
@@ -328,46 +187,11 @@ section#section_map .col-sm-7 i {
   font-size: 40px;
 }
 
->>>>>>> Stashed changes
 
 footer.jumbotron .container h2 {
   font-size: 18px;
   padding-bottom: 10px;
 }
-<<<<<<< Updated upstream
-
-footer.jumbotron p{
-  text-align: center;
-  padding-left: 5px;
-  
-}
-
-footer.jumbotron .container .btn {
- position: relative; 
- left: 50%;
- transform: translateX(-50%);
-}
-
-@media (max-width:768px){ 
-
-  header {
-    height: 500px;
-  }
-  #section_stroy {
-  margin-top: 300px;
-  margin-bottom: 300px;
- 
-}
-#section_story2 {
-  margin-top: 300px;
-  margin-bottom: 300px;
-}
-#section_story2 .col-sm-5{
-  padding-top: 150px;
-  padding-bottom: 50px;
-  }
-}
-=======
 footer.jumbotron .container input {
   width: 210px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -540,4 +364,3 @@ footer.jumbotron .container .btn {
 
 
 
->>>>>>> Stashed changes
