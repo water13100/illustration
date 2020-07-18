@@ -29,6 +29,7 @@ function carousel() {
 }
 // ....
 $(document).ready(function() {
+<<<<<<< Updated upstream:index.js
          // var s = skrollr.init(); 
 		$(".fancybox").fancybox(
       { 
@@ -41,3 +42,9 @@ $(document).ready(function() {
          new skrollr().init();
       }
 	});
+=======
+		$(".fancybox").fancybox();
+    });
+    
+// ............
+>>>>>>> Stashed changes:script.js
