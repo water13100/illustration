@@ -1,10 +1,16 @@
-var s = skrollr.init();
-$(window).scroll(function(evt){
-  if ($(window).scrollTop()>0)
-   $(".navbar").removeClass("navbar-top");
-  else
-      $(".navbar").addClass("navbar-top");
-});
+if(screen.width > 768){
+  var s = skrollr.init();
+}
+if(screen.width > 480){
+  $(window).scroll(function(evt){
+    if ($(window).scrollTop()>0)
+     $(".navbar").removeClass("navbar-top");
+    else
+        $(".navbar").addClass("navbar-top");
+  });
+}
+
+
 
 
 // ............
