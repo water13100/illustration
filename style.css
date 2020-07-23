@@ -40,6 +40,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
   background-color: rgba(234, 234, 250, 0);
   transition: 1s;
   width: 100vw;
+  padding-top: 5px;
 }
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
   color: #eaeafa;
