@@ -46,6 +46,7 @@ nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
 nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
   color: #ff8c1a;
   transition: 1s;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 .jumbotron {
